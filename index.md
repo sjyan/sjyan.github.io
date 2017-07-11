@@ -1,3 +1,3 @@
 # Coming soon
 
-Stephen *J.* Yan
+--Stephen *J.* Yan
