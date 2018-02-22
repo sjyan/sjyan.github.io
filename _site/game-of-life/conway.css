@@ -1,0 +1,20 @@
+body, button, input[type="text"]{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+td {
+    border: 1px solid black;
+    height: 9px;
+    width: 6px;
+}
+
+.noBorder {
+    border: 1px solid transparent;
+}
+
+#grid table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+<html><head>
+<title>CGoL</title>	
+<link href="conway.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="conway.js"></script>
+</head>
+	
+<body>
+    <center><h1>STEPHEN'S GAME OF LIFE</h1></center>
+	
+<div id="creation_control">
+  <form id="control_form">
+    <center>
+    <label>Width:  <input id="width" type="text" name="width" style="width:50px" value="30"></label>
+    <label>Height:  <input id="height" type="text" name="height" style="width:50px" value="50"></label><br>
+    <label>Radius:  <input id="radius" type="text" name="radius" style="width:50px" value="1"></label>
+    <label>LThresh:  <input id="lone_thresh" type="text" name="lone_thresh" style="width:50px" value="2"></label>
+    <label>OThresh:  <input id="over_thresh" type="text" name="over_thresh" style="width:50px" value="3"></label>
+    <label>GenMin:  <input id="gmin" type="text" name="gmin" style="width:50px" value="3"></label>
+    <label>GenMax:  <input id="gmax" type="text" name="gmax" style="width:50px" value="3"></label><br>
+    <button id="gen_button">Generate</button>
+    <button id="randGen_button">Random Generate</button> 
+    <button id="toggleGridLines_button">Toggle Grid Lines</button>
+    <select id="neighbor_behavior" form="neighborform">
+    <option disabled="disabled" value="default">Edge Neighbor Behavior</option>
+    <option selected="true" value="alwaysAlive">Always Alive</option>
+    <option value="alwaysDead">Always Dead</option>
+    <option value="wrap">Toroidal</option>
+    </select>
+    </center>
+  </form>
+</div>
+    
+<center>Generation: <span id="generation">0</span></center>
+	
+<div id="grid">
+    </div>
+
+<div id="exe_control">
+    <center>
+    <div id="speed_control" data-role="rangeslider">
+        <label for="speed">Animation Speed:</label>
+        <input type="range" name="speed" id="speed" value="750" min="0" max="1000">
+      </div>
+    <button id="play_button">Play/Pause</button>
+    <button id="step_button">Step</button>
+    <button id="reset_button">Reset</button><br>
+    </center>
+</div>
+<br>
+	
+</body>
+</html>

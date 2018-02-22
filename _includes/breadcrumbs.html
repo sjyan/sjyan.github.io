@@ -1,0 +1,98 @@
+<nav class="breadcrumbs bootstrap hidden-sm-down">
+<ol class="breadcrumb list-unstyled" vocab="http://schema.org/" typeof="BreadcrumbList">
+
+  <!-- 
+  {% if (page.url == '/') %}
+    <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+      <a property="item" typeof="WebPage" href="{{ page.url | prepend: site.baseurl }}">
+      {{ page.title }}
+      </a>
+    </li>
+  {% endif %}
+  -->
+
+  {% for crumb in site.data.breadcrumbs %}
+    {% assign url_prefix = page.url | slice: 0, crumb.url.size %}
+    {% assign page_prefix = (page.url | split: '.') | first %}
+    {% assign page_prefix_no_index = (page_prefix | split: '/index') | first %}
+
+
+    {% if (url_prefix == crumb.url) and (page_prefix_no_index != crumb.url) %}
+      <li class="breadcrumb-item" property="itemListElement" typeof="ListItem">
+        <a property="item" typeof="WebPage" href="{{ crumb.url | prepend: site.baseurl }}">
+        {{ crumb.title }}
+        </a>
+      </li>
+    {% endif %}
+
+  {% endfor %}
+
+  <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+    <a property="item" typeof="WebPage" style="color: #818a91 !important" href="{{ page.url | prepend: site.baseurl }}">
+    {{ page.title }}
+    </a>
+  </li>
+</ol>
+</nav>  
+
+<style>
+nav.breadcrumbs.bootstrap {
+  /* from Twitter Bootstrap 4 */
+  /* If you already use Twitter, you do not need these css lines above, cause they already in Twitter Bootstrap */
+  /* Additions: image integration */
+}
+nav.breadcrumbs.bootstrap ol {
+  margin-left: 0
+}
+nav.breadcrumbs.bootstrap .breadcrumb {
+  padding: 0.5rem 0.5rem;
+  list-style: none;
+  background-color: #f1f2ed;
+  border-radius: 0.25rem;
+}
+nav.breadcrumbs.bootstrap .breadcrumb::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav.breadcrumbs.bootstrap .breadcrumb-item {
+  float: left;
+}
+nav.breadcrumbs.bootstrap .breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #818a91;
+  content: '\203A';
+}
+nav.breadcrumbs.bootstrap .breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+nav.breadcrumbs.bootstrap .breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+}
+nav.breadcrumbs.bootstrap .breadcrumb-item-active {
+  color: #818a91;
+}
+nav.breadcrumbs.bootstrap .breadcrumb a.breadcrumb-item:after {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  content: "/";
+  text-decoration: none;
+}
+nav.breadcrumbs.bootstrap .breadcrumb .icon:after {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: #818a91;
+  content: "/";
+}
+nav.breadcrumbs.bootstrap .breadcrumb .icon {
+  display: inline-block;
+}
+nav.breadcrumbs.bootstrap .breadcrumb .icon svg {
+  height: 0.7rem;
+  width: 0.7rem;
+}
+</style>

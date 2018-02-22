@@ -104,8 +104,8 @@
   
 
   <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
-    <a property="item" typeof="WebPage" style="color: #818a91 !important" href="/drafts/test.html">
-    Coming soon
+    <a property="item" typeof="WebPage" style="color: #818a91 !important" href="/game-of-life/">
+    Stephen’s Game of Life
     </a>
   </li>
 </ol>
@@ -177,9 +177,39 @@ nav.breadcrumbs.bootstrap .breadcrumb .icon svg {
 
       <section id='content'>
 
-      <h1 id="coming-soon">Coming soon</h1>
+      <h1 id="stephens-game-of-life">Stephen’s Game of Life</h1>
+<p>This is an implementation of John Conway’s cellular automaton “Game of Life” with added features</p>
 
-<p>Stephen Yan</p>
+<h3 id="how-to-play">How to play:</h3>
+<p>It’s a zero-player game, but you can determine the rules! The game is a continuous view of new generations of cells, whose lives are represented by colored cells on the grid. A white cell is dead and has never been alive. A fully colored cell is a living one. A faded cell is dead, but it has been alive before. Here’s how you control the rules:</p>
+
+<ol>
+  <li><strong>Width/Height</strong>: Enter numbers between 20 and 200 to control the dimensions of the grid</li>
+  <li><strong>Radius</strong>: Enter a number between 1 and 10 to control how far a cell’s neighbors extend. “1” indicates that a cell should only consider its immediate (8) neighbors. “2” indicates that a cell will consider the next shell (total 16), and so on.</li>
+  <li><strong>LThresh</strong>: This is the loneliness threshold that determines the number of neighbors below which a cell will die as if by underpopulation. This number should be greater than 0 and no more than the overpopulation threshold.</li>
+  <li><strong>OThresh</strong>: This is the overpopulation threshold that determines the number of neighbors above which a cell will die. This number should be at least the loneliness threshold and no greater than one less than the total number of neighbors for any given cell.</li>
+  <li><strong>GenMin</strong>: This is the minimum number of neighbors above which a dead cell will generate. This number should be greater than 0 and no more than GenMax.</li>
+  <li><strong>GenMax</strong>: This is the maximum number of neighbors below which a dead cell will generate. This number should be at least GenMin and no greater than one less the total number of neighbors for any given cell.</li>
+  <li>You can toggle grid lines with <strong>Toggle Grid Lines</strong>. The default setting for an initialized game is to have grid lines.</li>
+  <li><strong>Edge Neighbor Behavior</strong>: This determines how cells behave at the edges of the world.
+    <ul>
+      <li>A cell will consider off-grid neighbors to be alive if “<strong>All Alive</strong>” is selected.</li>
+      <li>A cell will consider off-grid neighbors to be dead if “<strong>All Dead</strong>” is selected.</li>
+      <li>A cell will wrap to the corresponding opposite side if “<strong>Toroidal</strong>” is selected.</li>
+    </ul>
+  </li>
+  <li>Click <strong>Generate</strong> to create an empty grid with all the rules above applied. You can manually determine cell states by clicking on them to flip state.
+    <ul>
+      <li>CLICK : Flip a cell’s state.</li>
+      <li>SHIFT-CLICK : Force a cell to generate.</li>
+      <li>ALT-CLICK : Force a cell to die.</li>
+    </ul>
+  </li>
+  <li>Click <strong>Random Generate</strong> to create a grid with randomly filled cells. Keep in mind that the automaton will be more sustainable if the radius is smaller and the grid is more populated. If the radius is smaller and the grid is sparse, you should expect the automaton to die within a few generations unless you adjust the radius.</li>
+  <li>Click <strong>Play/Pause</strong> to see what happens! Toggle this button to pause the automaton at any generation. Click <strong>Step</strong> to see what happens generation by generation. Click <strong>Reset</strong> to empty the automaton and reset the generation counter back to 0. You can adjust the speed of generation with the <strong>Animation Speed</strong> slider.</li>
+</ol>
+
+<p><a href="../gol">Play</a></p>
 
 
       </section>
