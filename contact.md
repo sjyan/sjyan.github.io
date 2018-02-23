@@ -5,15 +5,15 @@ permalink: /contact
 
 <form action="https://formspree.io/hello@stephenyan.com" method="POST" class="contact-form">
 
-	<input id='nameField' type="text" size="30" name="name" placeholder="name" required>
+	<input id='nameField' type="text" style="width:45%" name="name" placeholder="name" required>
 	 /
-	<input id='mailField' type="text" size="30" name="_replyto" placeholder="email">
+	<input id='mailField' type="text" style="width:45%" name="_replyto" placeholder="email">
 	<br><br>
 
-	<input id='subjectField' type="text" size="67" name="_subject" placeholder="subject">
+	<input id='subjectField' type="text" style="width:93%" name="_subject" placeholder="subject">
 	<br><br>
 
-	<textarea name="message" placeholder="message" rows="12" cols="60" required></textarea>
+	<textarea name="message" placeholder="message" rows="12" style="width:93%" required></textarea>
 	<br>
 	<input type="submit" value="send">
 

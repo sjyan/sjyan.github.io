@@ -57,11 +57,11 @@ Pervasive Computing and Communications (IEEE PerCom) in Kailua-Kona, HI
 
 # <i class="fa fa-terminal"></i> skills
 ---
-### programming
-Java • PHP • JavaScript • HTML/CSS •XML • Git • SVN • MSSQL • C • LATEX• MATLAB/Octave • C# • R • SAS • Python • Android • Unity
+### programming/markup/templating/libraries
+java • php • javascript • html/css • liquid • jekyll • xml • git • svn • sql server • c • latex • matlab/octave • c# • r • sas • python • android • unity
 
-### language
-Spanish • Mandarin Chinese
+### natural language
+spanish • mandarin chinese
 
 ---
 
