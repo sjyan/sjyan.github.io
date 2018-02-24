@@ -4,7 +4,7 @@ title: resume
 
 # <i class="fa fa-wrench"></i> experience
 ---
-<h3>unc chapel hill <span style="font-weight:normal">/ undergraduate teaching assistant</span><br><span style="font-weight:normal">8/2016 — 5/2017</span></h3>
+<h3>unc chapel hill <span style="font-weight:normal">/ undergraduate teaching assistant</span><br><span style="font-weight:normal">8/2016 — 5/2017</span> • <span style="font-weight:normal; font-style:italic">chapel hill, nc</span></h3>
 - hosted ten hours of office hours weekly for course in Introduction to Scientific Programming taught in MATLAB
 - scaffolded technical topics to students and discussed and evaluated best
 practices for instilling foundations of programming
@@ -12,7 +12,7 @@ practices for instilling foundations of programming
 supplement lectures and assignments and proctor exams
 
 
-<h3>thycotic <span style="font-weight:normal">/ software engineer intern</span><br><span style="font-weight:normal">5/2016 — 8/2016</span></h3>
+<h3>thycotic <span style="font-weight:normal">/ software engineer intern</span><br><span style="font-weight:normal">5/2016 — 8/2016</span> • <span style="font-weight:normal; font-style:italic">washington, d.c.</span></h3>
 
 - contributed daily as a full-time team member across WISA stack through bug fixes, QA, and various
 performance improvements
@@ -59,7 +59,7 @@ Pervasive Computing and Communications (IEEE PerCom) in Kailua-Kona, HI
 
 # <i class="fa fa-terminal"></i> skills
 ---
-### programming/markup/templating/libraries
+### technical
 java • php • javascript • html/css • liquid • jekyll • xml • git • svn • sql server • c • latex • matlab/octave • c# • r • sas • python • android • unity
 
 ### natural language
