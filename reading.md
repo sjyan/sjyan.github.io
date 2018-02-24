@@ -1,5 +1,6 @@
 ---
 title: reading
+permalink: /reading
 ---
 
 ## currently reading

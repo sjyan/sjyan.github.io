@@ -1,5 +1,6 @@
 ---
 title: resume
+permalink: /resume
 ---
 
 # <i class="fa fa-wrench"></i> experience
