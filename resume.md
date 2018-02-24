@@ -6,17 +6,19 @@ title: resume
 ---
 <h3>unc chapel hill <span style="font-weight:normal">/ undergraduate teaching assistant</span><br><span style="font-weight:normal">8/2016 — 5/2017</span></h3>
 - hosted ten hours of office hours weekly for course in Introduction to Scientific Programming taught in MATLAB
-- met weekly with professor and fellow assistants to discuss best practices for better reinforcement of foundations of programming for students  
+- scaffolded technical topics to students and discussed and evaluated best
+practices for instilling foundations of programming
+- organized teaching plans and schedules with professor and cohort to
+supplement lectures and assignments and proctor exams
 
 
 <h3>thycotic <span style="font-weight:normal">/ software engineer intern</span><br><span style="font-weight:normal">5/2016 — 8/2016</span></h3>
 
-- contributed daily as a full-time team member across Microsoft Stack (C#,
-MSSQL, ASP.NET, JavaScript/HTML5) through bug fixes, QA, and various
+- contributed daily as a full-time team member across WISA stack through bug fixes, QA, and various
 performance improvements
-- worked primarily on key feature ‘scriptable discovery’ for privileged accounts,
-contributing schema changes and building upon existing framework for script
-integration for machine and local account discovery on a network
+- worked on key feature that required extensive planning and documentation,
+contributing schema changes and deltas, and refactoring and building upon existing framework for feature
+integration
 - leveraged various software like Youtrack, Visual Studio Online, and Jenkins for
 issue tracking, life cycle visualization and planning, and continuous integration
 - enhanced team knowledge base using Confluence
