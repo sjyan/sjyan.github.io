@@ -68,6 +68,7 @@ spanish • mandarin chinese
 
 ---
 
-also available as <a href="/resume.pdf" target="_blank">pdf</a>  
+also available as <a href="/resume.pdf" target="_blank">pdf</a>.  
+for writing samples, [see here](/resume/samples).
 
 *last updated 2018/02/22*
