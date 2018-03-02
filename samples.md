@@ -1,7 +1,7 @@
 ---
 
 title: samples
-permalink: /resume/samples/
+permalink: /resume/samples/index.html
 
 ---
 
