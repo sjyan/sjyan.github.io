@@ -1,9 +1,7 @@
 url,title
 /,home
-/blog,blog
-/projects,projects
-/projects/gol,game of life
-/projects/gol/rules,rules
 /404,404
 /reading,reading
 /resume,resume
+/resume/samples,samples
+/contact,contact

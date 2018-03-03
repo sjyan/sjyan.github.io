@@ -1,8 +1,6 @@
 ---
-
 title: samples
-permalink: /resume/samples/index.html
-
+permalink: /resume/samples/
 ---
 
 <h3><a href="/song-popularity-display.pdf" target="_blank">on song popularity: an analysis on song metadata using the million song dataset</a></h3>
