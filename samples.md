@@ -21,9 +21,9 @@ ____
 ____
 
 
-<h3><a href="/potato-stew-display.pdf" target="_blank">"potato stew", a story of a friend, by a friend, for a friend</a></h3>
+<h3><a href="/potato-stew-display.pdf" target="_blank">"potato stew", a short story for a childhood friend</a></h3>
 
 
 ____
 
-<h3><a href="/black-and-white-display.pdf" title="potato stew" target="_blank">"black & white", an in-depth proposal for a familiar game premise reimagined</a></h3>
+<h3><a href="/black-and-white-display.pdf" title="potato stew" target="_blank">"black & white", a prosposal for reimagined story mechanics of a familiar RPG paradigm</a></h3>
