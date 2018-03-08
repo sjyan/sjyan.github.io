@@ -15,8 +15,10 @@ ____
 
 <h3><a href="/characterizing-road-segments-display.pdf" target="_blank">characterizing road segments using compass sensors to predict approaching bus stops</a></h3>
 
-<a href="/mobile-turn-analysis.html" target="_blank">visualization and analysis for mobile turn data</a>
 
+<!-- omit for now
+<a href="/mobile-turn-analysis.html" target="_blank">visualization and analysis for mobile turn data</a>
+-->
 
 ____
 
